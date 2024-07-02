@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://d3ksphxavdif3"]
+
+[ext_resource type="Script" path="res://Scripts/AttackerManager.cs" id="1_lysnq"]
+[ext_resource type="PackedScene" uid="uid://csdvjco6cd0v1" path="res://Utility/IceSpearAttackManager.tscn" id="2_n34d6"]
+
+[node name="AttackerManager" type="Node2D"]
+script = ExtResource("1_lysnq")
+
+[node name="IceSpearAttackManager" parent="." instance=ExtResource("2_n34d6")]

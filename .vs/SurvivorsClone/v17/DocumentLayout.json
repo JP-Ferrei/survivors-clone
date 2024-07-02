@@ -1,0 +1,201 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "L:\\GodotProjects\\SurvivorsClone\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6B3CD3BE-1A1B-4DFF-BBC8-47E77F714973}|SurvivorsClone.csproj|l:\\godotprojects\\survivorsclone\\scripts\\explosion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B3CD3BE-1A1B-4DFF-BBC8-47E77F714973}|SurvivorsClone.csproj|solutionrelative:scripts\\explosion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B3CD3BE-1A1B-4DFF-BBC8-47E77F714973}|SurvivorsClone.csproj|l:\\godotprojects\\survivorsclone\\scripts\\koboldweak.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B3CD3BE-1A1B-4DFF-BBC8-47E77F714973}|SurvivorsClone.csproj|solutionrelative:scripts\\koboldweak.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B3CD3BE-1A1B-4DFF-BBC8-47E77F714973}|SurvivorsClone.csproj|l:\\godotprojects\\survivorsclone\\scripts\\icespear.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B3CD3BE-1A1B-4DFF-BBC8-47E77F714973}|SurvivorsClone.csproj|solutionrelative:scripts\\icespear.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B3CD3BE-1A1B-4DFF-BBC8-47E77F714973}|SurvivorsClone.csproj|l:\\godotprojects\\survivorsclone\\scripts\\healthcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B3CD3BE-1A1B-4DFF-BBC8-47E77F714973}|SurvivorsClone.csproj|solutionrelative:scripts\\healthcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B3CD3BE-1A1B-4DFF-BBC8-47E77F714973}|SurvivorsClone.csproj|l:\\godotprojects\\survivorsclone\\scripts\\hurtbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B3CD3BE-1A1B-4DFF-BBC8-47E77F714973}|SurvivorsClone.csproj|solutionrelative:scripts\\hurtbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B3CD3BE-1A1B-4DFF-BBC8-47E77F714973}|SurvivorsClone.csproj|l:\\godotprojects\\survivorsclone\\scripts\\hitbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B3CD3BE-1A1B-4DFF-BBC8-47E77F714973}|SurvivorsClone.csproj|solutionrelative:scripts\\hitbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B3CD3BE-1A1B-4DFF-BBC8-47E77F714973}|SurvivorsClone.csproj|l:\\godotprojects\\survivorsclone\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B3CD3BE-1A1B-4DFF-BBC8-47E77F714973}|SurvivorsClone.csproj|solutionrelative:scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B3CD3BE-1A1B-4DFF-BBC8-47E77F714973}|SurvivorsClone.csproj|l:\\godotprojects\\survivorsclone\\scripts\\icespearattackmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B3CD3BE-1A1B-4DFF-BBC8-47E77F714973}|SurvivorsClone.csproj|solutionrelative:scripts\\icespearattackmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B3CD3BE-1A1B-4DFF-BBC8-47E77F714973}|SurvivorsClone.csproj|l:\\godotprojects\\survivorsclone\\scripts\\attackermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B3CD3BE-1A1B-4DFF-BBC8-47E77F714973}|SurvivorsClone.csproj|solutionrelative:scripts\\attackermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Explosion.cs",
+              "DocumentMoniker": "L:\\GodotProjects\\SurvivorsClone\\Scripts\\Explosion.cs",
+              "RelativeDocumentMoniker": "Scripts\\Explosion.cs",
+              "ToolTip": "L:\\GodotProjects\\SurvivorsClone\\Scripts\\Explosion.cs",
+              "RelativeToolTip": "Scripts\\Explosion.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T21:37:55.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IceSpear.cs",
+              "DocumentMoniker": "L:\\GodotProjects\\SurvivorsClone\\Scripts\\IceSpear.cs",
+              "RelativeDocumentMoniker": "Scripts\\IceSpear.cs",
+              "ToolTip": "L:\\GodotProjects\\SurvivorsClone\\Scripts\\IceSpear.cs",
+              "RelativeToolTip": "Scripts\\IceSpear.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAswCgAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T20:28:43.568Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HealthComponent.cs",
+              "DocumentMoniker": "L:\\GodotProjects\\SurvivorsClone\\Scripts\\HealthComponent.cs",
+              "RelativeDocumentMoniker": "Scripts\\HealthComponent.cs",
+              "ToolTip": "L:\\GodotProjects\\SurvivorsClone\\Scripts\\HealthComponent.cs",
+              "RelativeToolTip": "Scripts\\HealthComponent.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T21:47:44.923Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Player.cs",
+              "DocumentMoniker": "L:\\GodotProjects\\SurvivorsClone\\Scripts\\Player.cs",
+              "RelativeDocumentMoniker": "Scripts\\Player.cs",
+              "ToolTip": "L:\\GodotProjects\\SurvivorsClone\\Scripts\\Player.cs",
+              "RelativeToolTip": "Scripts\\Player.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T21:21:45.641Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IceSpearAttackManager.cs",
+              "DocumentMoniker": "L:\\GodotProjects\\SurvivorsClone\\Scripts\\IceSpearAttackManager.cs",
+              "RelativeDocumentMoniker": "Scripts\\IceSpearAttackManager.cs",
+              "ToolTip": "L:\\GodotProjects\\SurvivorsClone\\Scripts\\IceSpearAttackManager.cs",
+              "RelativeToolTip": "Scripts\\IceSpearAttackManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T20:09:17.956Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AttackerManager.cs",
+              "DocumentMoniker": "L:\\GodotProjects\\SurvivorsClone\\Scripts\\AttackerManager.cs",
+              "RelativeDocumentMoniker": "Scripts\\AttackerManager.cs",
+              "ToolTip": "L:\\GodotProjects\\SurvivorsClone\\Scripts\\AttackerManager.cs",
+              "RelativeToolTip": "Scripts\\AttackerManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T19:58:08.401Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HurtBox.cs",
+              "DocumentMoniker": "L:\\GodotProjects\\SurvivorsClone\\Scripts\\HurtBox.cs",
+              "RelativeDocumentMoniker": "Scripts\\HurtBox.cs",
+              "ToolTip": "L:\\GodotProjects\\SurvivorsClone\\Scripts\\HurtBox.cs",
+              "RelativeToolTip": "Scripts\\HurtBox.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAmwDYAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T23:04:55.544Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HitBox.cs",
+              "DocumentMoniker": "L:\\GodotProjects\\SurvivorsClone\\Scripts\\HitBox.cs",
+              "RelativeDocumentMoniker": "Scripts\\HitBox.cs",
+              "ToolTip": "L:\\GodotProjects\\SurvivorsClone\\Scripts\\HitBox.cs",
+              "RelativeToolTip": "Scripts\\HitBox.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAIAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T23:04:45.579Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "KoboldWeak.cs",
+              "DocumentMoniker": "L:\\GodotProjects\\SurvivorsClone\\Scripts\\KoboldWeak.cs",
+              "RelativeDocumentMoniker": "Scripts\\KoboldWeak.cs",
+              "ToolTip": "L:\\GodotProjects\\SurvivorsClone\\Scripts\\KoboldWeak.cs",
+              "RelativeToolTip": "Scripts\\KoboldWeak.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAAAE4AAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T22:01:21.887Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

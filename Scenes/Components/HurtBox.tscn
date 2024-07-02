@@ -1,0 +1,14 @@
+[gd_scene load_steps=2 format=3 uid="uid://ciwqeoe65uhri"]
+
+[ext_resource type="Script" path="res://Scripts/HurtBox.cs" id="1_17wnp"]
+
+[node name="HurtBox" type="Area2D"]
+monitorable = false
+script = ExtResource("1_17wnp")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+debug_color = Color(0.47377, 0.589406, 1.92523e-07, 0.42)
+
+[node name="DisableTimer" type="Timer" parent="."]
+wait_time = 0.2
+one_shot = true

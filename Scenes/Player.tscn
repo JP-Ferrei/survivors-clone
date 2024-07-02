@@ -1,0 +1,73 @@
+[gd_scene load_steps=11 format=3 uid="uid://uw6hu7bc5co1"]
+
+[ext_resource type="Script" path="res://Scripts/Player.cs" id="1_x4wts"]
+[ext_resource type="Texture2D" uid="uid://bipkdowhtci82" path="res://Assets/Textures/Player/player_sprite.png" id="2_an5kk"]
+[ext_resource type="PackedScene" uid="uid://ciwqeoe65uhri" path="res://Scenes/Components/HurtBox.tscn" id="3_wows0"]
+[ext_resource type="PackedScene" uid="uid://ds5ho0ic6kmo1" path="res://Scenes/Components/HealthComponent.tscn" id="5_4ks54"]
+[ext_resource type="PackedScene" uid="uid://csdvjco6cd0v1" path="res://Utility/IceSpearAttackManager.tscn" id="5_iuvvc"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xrcs4"]
+atlas = ExtResource("2_an5kk")
+region = Rect2(0, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_nyymt"]
+atlas = ExtResource("2_an5kk")
+region = Rect2(32, 0, 32, 32)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_c4nfb"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xrcs4")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_nyymt")
+}],
+"loop": true,
+"name": &"walk",
+"speed": 5.0
+}]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_jbd7p"]
+radius = 4.0
+height = 18.0
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_0yj2g"]
+size = Vector2(9, 20)
+
+[node name="Player" type="CharacterBody2D" node_paths=PackedStringArray("Sprite", "HurtBox") groups=["Player"]]
+scale = Vector2(-1, 1)
+collision_layer = 2
+collision_mask = 7
+motion_mode = 1
+script = ExtResource("1_x4wts")
+Sprite = NodePath("AnimatedSprite2D")
+HurtBox = NodePath("HurtBox")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+zoom = Vector2(2, 2)
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_c4nfb")
+animation = &"walk"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(2, 2)
+shape = SubResource("CapsuleShape2D_jbd7p")
+
+[node name="HurtBox" parent="." node_paths=PackedStringArray("HealthComponent") instance=ExtResource("3_wows0")]
+collision_layer = 0
+collision_mask = 2
+HurtBoxType = 2
+HealthComponent = NodePath("../HealthComponent")
+
+[node name="CollisionShape2D" parent="HurtBox" index="0"]
+position = Vector2(1.5, 3)
+shape = SubResource("RectangleShape2D_0yj2g")
+
+[node name="HealthComponent" parent="." instance=ExtResource("5_4ks54")]
+
+[node name="IceSpearAttackManager" parent="." instance=ExtResource("5_iuvvc")]
+BaseAmmo = 2
+
+[editable path="HurtBox"]

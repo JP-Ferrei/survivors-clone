@@ -1,0 +1,20 @@
+[gd_scene load_steps=5 format=3 uid="uid://d02lcw07xn5c3"]
+
+[ext_resource type="Script" path="res://Utility/EnemySpawner.cs" id="1_c6vcx"]
+[ext_resource type="PackedScene" uid="uid://c3ei3nsyl8xu" path="res://Scenes/Enemies/KoboldWeak.tscn" id="2_baqdo"]
+[ext_resource type="Script" path="res://Utility/SpawnInfo.cs" id="3_xfiye"]
+
+[sub_resource type="Resource" id="Resource_6umsr"]
+script = ExtResource("3_xfiye")
+TimerStart = 0
+TimerEnd = 60
+Enemy = ExtResource("2_baqdo")
+EnemyNumber = 60
+EnemySpawnDelay = 1
+
+[node name="EnemySpawner" type="Node2D"]
+script = ExtResource("1_c6vcx")
+SpawnsInfo = Array[Resource]([SubResource("Resource_6umsr")])
+
+[node name="Timer" type="Timer" parent="."]
+autostart = true

@@ -1,0 +1,43 @@
+[gd_scene load_steps=6 format=3 uid="uid://c7sd4jqowx1m2"]
+
+[ext_resource type="Script" path="res://Scripts/IceSpear.cs" id="1_gkmf7"]
+[ext_resource type="Texture2D" uid="uid://haxagahje433" path="res://Assets/Textures/Items/Weapons/ice_spear.png" id="2_8rwe2"]
+[ext_resource type="PackedScene" uid="uid://d4k4x3687xswd" path="res://Scenes/Components/HitBox.tscn" id="3_a5ne1"]
+[ext_resource type="AudioStream" uid="uid://ch38s3fgxblt1" path="res://Assets/Audio/SoundEffect/ice.wav" id="4_h7wmp"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_epjxl"]
+size = Vector2(34, 8)
+
+[node name="IceSpear" type="Node2D" node_paths=PackedStringArray("Timer", "HitBox", "SpawnSound")]
+top_level = true
+scale = Vector2(0.1, 0.1)
+script = ExtResource("1_gkmf7")
+Damage = 7
+Speed = 100
+Timer = NodePath("Timer")
+HitBox = NodePath("HitBox")
+SpawnSound = NodePath("SpawnSound")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(1, -1)
+rotation = 2.35794
+texture = ExtResource("2_8rwe2")
+
+[node name="HitBox" parent="." instance=ExtResource("3_a5ne1")]
+collision_layer = 4
+collision_mask = 0
+
+[node name="CollisionShape2D" parent="HitBox" index="0"]
+position = Vector2(1, 0)
+shape = SubResource("RectangleShape2D_epjxl")
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 4.0
+autostart = true
+
+[node name="SpawnSound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("4_h7wmp")
+volume_db = -29.329
+pitch_scale = 5.0
+
+[editable path="HitBox"]

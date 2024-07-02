@@ -1,0 +1,30 @@
+[gd_scene load_steps=7 format=3 uid="uid://bce5xcrhd5yep"]
+
+[ext_resource type="PackedScene" uid="uid://uw6hu7bc5co1" path="res://Scenes/Player.tscn" id="1_4rmub"]
+[ext_resource type="Texture2D" uid="uid://wa1toxdebl0b" path="res://Assets/Textures/dirt_full_new.png" id="1_50nlh"]
+[ext_resource type="PackedScene" uid="uid://d02lcw07xn5c3" path="res://Utility/EnemySpawner.tscn" id="1_o1ff0"]
+[ext_resource type="Script" path="res://Utility/SpawnInfo.cs" id="3_erk2f"]
+[ext_resource type="PackedScene" uid="uid://c3ei3nsyl8xu" path="res://Scenes/Enemies/KoboldWeak.tscn" id="3_u28i5"]
+
+[sub_resource type="Resource" id="Resource_y0qpi"]
+script = ExtResource("3_erk2f")
+TimerStart = 0
+TimerEnd = 30
+Enemy = ExtResource("3_u28i5")
+EnemyNumber = 1
+EnemySpawnDelay = 0
+
+[node name="World" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture_filter = 2
+texture_repeat = 2
+texture = ExtResource("1_50nlh")
+region_enabled = true
+region_rect = Rect2(-4000, -4000, 4000, 4000)
+
+[node name="Player" parent="." instance=ExtResource("1_4rmub")]
+
+[node name="EnemySpawner" parent="." instance=ExtResource("1_o1ff0")]
+SpawnsInfo = Array[Resource]([SubResource("Resource_y0qpi")])
+IsEnable = true
